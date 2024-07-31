@@ -1,0 +1,6 @@
+openai
+tenacity
+tiktoken
+colorama
+gradio
+git+https://github.com/lightaime/camel.git@hf_spaces_3
