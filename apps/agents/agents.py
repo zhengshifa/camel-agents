@@ -409,16 +409,6 @@ def construct_ui(blocks, api_key: Optional[str] = None) -> None:
                                   interactive=True)
             user_ta = gr.TextArea(label="User role (EDIT ME)", lines=1,
                                   interactive=True)
-        with gr.Column(scale=2):
-            gr.Markdown(
-                "## CAMEL: Communicative Agents for \"Mind\" Exploration"
-                " of Large Scale Language Model Society\n"
-                "Github repo: [https://github.com/lightaime/camel]"
-                "(https://github.com/lightaime/camel)"
-                '<div style="display:flex; justify-content:center;">'
-                '<img src="https://raw.githubusercontent.com/lightaime/camel/'
-                'master/misc/logo.png" alt="Logo" style="max-width:50%;">'
-                '</div>')
     with gr.Row():
         with gr.Column(scale=9):
             original_task_ta = gr.TextArea(
