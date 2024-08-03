@@ -1,0 +1,8 @@
+{
+    "name": "python-blog",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+      "build": "bash ./deploy.sh"
+    }
+  }
